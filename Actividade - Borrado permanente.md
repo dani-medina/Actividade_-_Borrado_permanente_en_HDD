@@ -2,12 +2,18 @@
 
 
 
-### Obxectivos:
+## Obxectivos:
 
 - Diferenciar entre eliminación estándar e borrado permanente.
 - Empregar ferramentas de borrado seguro para destruír ficheiros de xeito irreversible.
 - Reflexionar sobre implicacións éticas e legais do borrado permanente.
 
+## Precacución
+
+Confirma o disco é realmente o que queres borrar.
+Todo dato se perderá permanentemente.
+Non interrumpas o proceso unha vez iniciado.
+Fai backup de cualquier dato importante antes de continuar.
 
 
 ## Exercicio 1
