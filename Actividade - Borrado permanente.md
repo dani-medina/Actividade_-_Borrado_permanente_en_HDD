@@ -20,7 +20,7 @@ Fai backup de cualquier dato importante antes de continuar.
 
 - [ ] Importa unha máquina Windows. Chama á maquina Ac-BorradoPermanente-W
 - [ ] Crea  un directorio chamado DatosConfidenciais no Escritorio.
-- [ ] Copia os arquivos deste repo ao cartafol DatosConfidenciais, e botalles un ollo para ver o que conteñen.
+- [ ] Copia os arquivos deste repo [Github - Arquivos](https://github.com/dani-medina/Actividade_-_Borrado_permanente_en_HDD/tree/main/Arquivos) ao cartafol DatosConfidenciais, e botalles un ollo para ver o que conteñen.
 - [ ] Fai un snapshot da máquina virtual.
 - [ ] Borra os arquivos como faría calquera usuario (baleira a papeleira de reciclaxe)
 - [ ] Utiliza a ferramenta PhotoRec ou Recuva para recuperar os datos borrados.
