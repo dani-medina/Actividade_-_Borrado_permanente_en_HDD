@@ -1,0 +1,3 @@
+Windows 10: Activar Samba para conectar recursos en GNU/Linux
+
+https://blog.desdelinux.net/windows-10-activar-samba-conectar-recursos-gnu-linux/

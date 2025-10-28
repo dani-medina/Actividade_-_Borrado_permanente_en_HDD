@@ -16,11 +16,11 @@ Non interrumpas o proceso unha vez iniciado.
 Fai backup de cualquier dato importante antes de continuar.
 
 
-## Exercicio 1
+## Exercicio 1 - Data Craving básico
 
 - [ ] Importa unha máquina Windows. Chama á maquina Ac-BorradoPermanente-W
 - [ ] Crea  un directorio chamado DatosConfidenciais no Escritorio.
-- [ ] Crea arquivos no teu escritorio con calquera contido. Calquera tipo de imaxe, follas de calculo, arquivos de texto que teñan contrasinais, etc.
+- [ ] Copia os arquivos deste repo ao cartafol DatosConfidenciais, e botalles un ollo para ver o que conteñen.
 - [ ] Fai un snapshot da máquina virtual.
 - [ ] Borra os arquivos como faría calquera usuario (baleira a papeleira de reciclaxe)
 - [ ] Utiliza a ferramenta PhotoRec ou Recuva para recuperar os datos borrados.
@@ -29,11 +29,11 @@ Fai backup de cualquier dato importante antes de continuar.
 
 ## Exercicio 2
 
-- [ ]  Recupera o snapshot da máquina Ac-BorradoPermanente-W
+- [ ] Recupera o snapshot da máquina Ac-BorradoPermanente-W
 - [ ] Verás o directorio chamado DatosConfidenciais no Escritorio.
 - [ ] Documéntate sobre  sdelete de sysinternals.
 - [ ] Borra os arquivos de xeito permanente.
-- [ ] Utiliza a ferramenta PhotoRec para recuperar os datos borrados. Foi posible?
+- [ ] Utiliza a ferramenta PhotoRec ou Recuva para recuperar os datos borrados. Foi posible?
 
 
 
@@ -41,9 +41,9 @@ Fai backup de cualquier dato importante antes de continuar.
 
 ## Exercicio 3
 
-- [ ] Importa unha máquina Debian Server. Ac-BorradoPermanente-L.
+- [ ] Importa unha máquina Debian Server. Chama á máquina Ac-BorradoPermanente-L.
 - [ ] Crea un directorio chamado DatosConfidenciais no cartafol home do usuario *adminsitrador*.
-- [ ] Copia á máquina arquivos con calquera contido. Calquera tipo de imaxe, follas de calculo, arquivos de texto que teñan contrasinais, etc. Podes facelo por SSH e SCP.
+- [ ] Copia os arquivos deste repo ao cartafol DatosConfidenciais. Podes facelo por SSH e SCP.
 - [ ] Fai un snapshot da máquina virtual.
 - [ ] Borra os arquivos como faría calquera usuario (rm -fr).
 - [ ] Utiliza a ferramenta PhotoRec para recuperar os datos borrados.
@@ -54,7 +54,6 @@ Fai backup de cualquier dato importante antes de continuar.
 
 - [ ] Recupera o snapshot da máquina Debian Server. Ac-BorradoPermanente-L.
 - [ ] Verás o directorio chamado DatosConfidenciais no home do administrador.
-
 - [ ] Borra os arquivos como faría calquera usuario (rm -fr).
 - [ ] Utiliza a ferramenta Foremost para recuperar os datos borrados.
 
@@ -62,7 +61,6 @@ Fai backup de cualquier dato importante antes de continuar.
 
 - [ ] Recupera o snapshot da máquina Debian Server. Ac-BorradoPermanente-L.
 - [ ] Verás o directorio chamado DatosConfidenciais no home do administrador.
-
 - [ ] Borra os arquivos como faría calquera usuario (rm -fr).
 - [ ] Utiliza a ferramenta scalpel para recuperar os datos borrados.
 
@@ -91,25 +89,14 @@ Fai backup de cualquier dato importante antes de continuar.
 ## Exercicio 8
 
 - [ ] Copia o arquivo  RecuperarDatos_Perdidos-2.vdi dende o cartafol do módulo.
-- [ ] Engade á unha máquina como segundo disco o disco RecuperarDatos_Perdidos-2.vdi.
+- [ ] Engade a unha máquina como segundo disco o disco RecuperarDatos_Perdidos-2.vdi.
 - [ ] Encende a máquina coa distro CAINE en modo live.
-- [ ] Consegue destruír a información de todo o disco e que non sexa recuperable utilizando o comando dd ou con scrub.
+- [ ] Consegue destruír a información de todo o disco e que non sexa recuperable utilizando o comando  scrub.
 - [ ] Utiliza as ferramentas PhotoRec, foremost e scalpel para recuperar os datos borrados. Foi posible?
 
 
 
 ## Exercicio 9
-
-- [ ] Copia o arquivo  RecuperarDatos_Perdidos-2.vdi dende o cartafol do módulo.
-- [ ] Engade á unha máquina como segundo disco o disco RecuperarDatos_Perdidos-2.vdi.
-- [ ] Encende a máquina coa distro CAINE en modo live.
-- [ ] Consegue destruir a información de todo o disco e que non sexa recuperable.
-- [ ] Incia la máquina con CAINE.
-- [ ] Utiliza as ferramentas PhotoRec, foremost e scalpel para recuperar os datos borrados. Foi posible?
-
-
-
-## Exercicio 10
 
 - [ ] Explica a diferenza entre eliminar e borrar permanentemente.
 - [ ] Describe cal foi a ferramenta que usaches e por que é efectiva para borrado antiforense.
