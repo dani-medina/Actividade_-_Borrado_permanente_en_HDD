@@ -35,7 +35,7 @@ Cada exercicio pode facerse en paralelo con outros.
 - [ ] Crea  un directorio chamado DatosConfidenciais no Escritorio.
 - [ ] Copia os arquivos deste repo [Github - Arquivos](https://github.com/dani-medina/Actividade_-_Borrado_permanente_en_HDD/tree/main/Arquivos) ao cartafol DatosConfidenciais.
 - [ ] Borra os arquivos como faría calquera usuario (baleira a papeleira de reciclaxe)
-- [ ] Utiliza a ferramenta PhotoRec para recuperar os datos borrados.
+- [ ] Utiliza a ferramenta Recuva para recuperar os datos borrados.
 - [ ] Fai un resumo cos problemas que te atopaches coa ferramenta, os pros e os contras.
 
 ## Exercicio 3
