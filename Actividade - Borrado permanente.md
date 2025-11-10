@@ -42,7 +42,7 @@ Cada exercicio pode facerse en paralelo con outros.
 
 - [ ] Clona unha máquina Windows. Chama á maquina Ac-BorradoPermanente-Ex3
 - [ ] Engade un disco virxe SATA de tamaño 1 GB á máquina. Se tes dúbidas aquí tes unha guía [Adding and removing disk drive in VirtualBox](https://progmar.net.pl/en/knowledge-base/virtualbox-adding-removing-disk-drive)
-- [ ] Prepárao para gardar información cun sistema de arquivos NTFS. Se tes dúbidas de como facelo aquí tes unha guía de Seaguete: [Cómo formatear su unidad en Windows | Seagate España](https://www.seagate.com/es/es/support/kb/how-to-format-your-drive-on-windows/) 
+- [ ] Prepárao para gardar información cun sistema de arquivos NTFS. Se tes dúbidas de como facelo aquí tes unha guía de Seagate: [Cómo formatear su unidad en Windows | Seagate España](https://www.seagate.com/es/es/support/kb/how-to-format-your-drive-on-windows/) 
 - [ ] Crea no novo disco un cartafol chamado DatosConfidenciais.
 - [ ] Copia os arquivos deste repo [Github - Arquivos](https://github.com/dani-medina/Actividade_-_Borrado_permanente_en_HDD/tree/main/Arquivos) ao cartafol DatosConfidenciais.
 - [ ] Documéntate sobre  sdelete de sysinternals.
@@ -58,6 +58,7 @@ Cada exercicio pode facerse en paralelo con outros.
 - [ ] Clona Debian Server. Chama á máquina Ac-BorradoPermanente-Ex4.
 - [ ] A máquina debe ter dúas tarxetas de rede: unha en NAT e outra en Host-Only. Se tes dúbidas de como crear unha interface hostonly sigue esta guía: [Host-only Networking in VirtualBox
 ](https://condor.depaul.edu/glancast/443class/docs/vbox_host-only_setup.html)
+- [ ] Ao iniciar a máquina veras co comando ```ip a``` que só unha das tarxetas ten IP. Executa o comando **dhclient** xunto co nome da tarxeta para que obteña ip.
 - [ ] Conéctate por SSH a través da IP hostonly (192.168.56.X).
 - [ ] Crea un directorio chamado DatosConfidenciais no cartafol home do usuario *adminsitrador*.
 - [ ] Copia os arquivos deste repo [Github - Arquivos](https://github.com/dani-medina/Actividade_-_Borrado_permanente_en_HDD/tree/main/Arquivos) ao cartafol DatosConfidenciais. Podes facelo por SSH e SCP ou con curl/wget.
