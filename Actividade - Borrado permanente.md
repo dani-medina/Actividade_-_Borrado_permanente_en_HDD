@@ -79,7 +79,8 @@ Cada exercicio pode facerse en paralelo con outros.
 - [ ] Verifica que podes ver os arquivos.
 - [ ] Saca un snapshot da máquina. Aquí tes unha guía de como facelo: [Instantáneas (snapshot) | Tutorial de VirtualBox](https://www.fpgenred.es/VirtualBox/instantneas_snapshot.html)
 - [ ] Borra os arquivos como faría calquera usuario (rm -fr).
-- [ ] Utiliza a ferramenta Foremost para recuperar os datos borrados.
+- [ ] Utiliza a ferramenta Foremost ou scalpel ou photorec (activiade por grupos) para recuperar os datos borrados.
+
 
 ## Exercicio 6
 
@@ -87,46 +88,28 @@ Cada exercicio pode facerse en paralelo con outros.
 - [ ] Conéctate por SSH a través da IP hostonly (192.168.56.X).
 - [ ] Monta o sistema de arquivos NFTS de 1 GB
 - [ ] Verás o directorio chamado DatosConfidencias e os arquivos que borramos no exercicio anterior.
-- [ ] Borra os arquivos como faría calquera usuario (rm -fr).
-- [ ] Utiliza a ferramenta Scalpel para recuperar os datos borrados.
+- [ ] Documéntate sobre  shred ou wipe (actividade por grupos).
+- [ ] Borra os arquivos de xeito permanente.
+- [ ] Utiliza as ferramentas PhotoRec, foremost e scalpel para recuperar os datos borrados. Foi posible?
+
+
+
+
+
 
 ## Exercicio 7
-
 - [ ] Recupera o snapshot da máquina Debian Server. Ac-BorradoPermanente-Ex5.
 - [ ] Conéctate por SSH a través da IP hostonly (192.168.56.X).
 - [ ] Monta o sistema de arquivos NFTS de 1 GB
 - [ ] Verás o directorio chamado DatosConfidencias e os arquivos que borramos no exercicio anterior.
-- [ ] Documéntate sobre  shred.
-- [ ] Borra os arquivos de xeito permanente.
+- [ ] Apaga a máquina. Inicia a máquina con ISO de CAINE.
+- [ ] Encende a máquina coa distro CAINE en modo live.
+- [ ] Consegue destruír a información de todo o disco de 1 GB e que non sexa recuperable utilizando o comando **scrub**.
 - [ ] Utiliza as ferramentas PhotoRec, foremost e scalpel para recuperar os datos borrados. Foi posible?
 
 
 
 ## Exercicio 8
-
-- [ ] Recupera o snapshot da máquina Debian Server. Ac-BorradoPermanente-Ex5.
-- [ ] Conéctate por SSH a través da IP hostonly (192.168.56.X).
-- [ ] Monta o sistema de arquivos NFTS de 1 GB
-- [ ] Verás o directorio chamado DatosConfidencias e os arquivos que borramos no exercicio anterior.
-- [ ] Documéntate sobre  wipe.
-- [ ] Borra os arquivos de xeito permanente.
-- [ ] Utiliza as ferramentas PhotoRec, foremost e scalpel para recuperar os datos borrados. Foi posible?
-
-
-
-## Exercicio 9
-- [ ] Recupera o snapshot da máquina Debian Server. Ac-BorradoPermanente-Ex5.
-- [ ] Conéctate por SSH a través da IP hostonly (192.168.56.X).
-- [ ] Monta o sistema de arquivos NFTS de 1 GB
-- [ ] Verás o directorio chamado DatosConfidencias e os arquivos que borramos no exercicio anterior.
-- [ ] Apaga a máquina. Inicia a máquina con ISO de CAINE 12.
-- [ ] Encende a máquina coa distro CAINE en modo live.
-- [ ] Consegue destruír a información de todo o disco de 1 GB e que non sexa recuperable utilizando o comando scrub.
-- [ ] Utiliza as ferramentas PhotoRec, foremost e scalpel para recuperar os datos borrados. Foi posible?
-
-
-
-## Exercicio 10
 
 - [ ] Explica a diferenza entre eliminar e borrar permanentemente.
 - [ ] Describe cal foi a ferramenta que usaches e por que é efectiva para borrado antiforense.
